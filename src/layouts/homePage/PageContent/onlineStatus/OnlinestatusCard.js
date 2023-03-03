@@ -1,17 +1,13 @@
 import React from "react";
+import OnlineCount from "../../../../components/onlinestatusCard/OnlineCount";
+import OnlineStatusCardSettings from "../../../../components/onlinestatusCard/OnlineStatusCardSettings";
 
 export default function OnlinestatusCard() {
   return (
     <div>
       <div style={{display:'flex'}}>
-        <div >
-          <p>count</p>
-          <p>Mebers Online</p>
-        </div>
-        <div style={{ display: "flex" }}>
-          <p>set icon</p>
-          <p>arr icon</p>
-        </div>
+        <OnlineCount/>
+        <OnlineStatusCardSettings/>
       </div>
       <div>
         <p>Graph</p>

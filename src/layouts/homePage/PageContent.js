@@ -2,6 +2,8 @@ import React from 'react'
 import OnlineStatus from './PageContent/OnlineStatus'
 import PrimaryNav from './PageContent/PrimaryNav'
 import SecNav from './PageContent/SecNav'
+import SocialStatus from './PageContent/SocialStatus'
+import TrafficGraph from './PageContent/TrafficGraph'
 
 export default function PageContent() {
   return (
@@ -9,8 +11,8 @@ export default function PageContent() {
       <PrimaryNav/>
       <SecNav/>
       <OnlineStatus/>
-      <p>TraficGraph</p>
-      <p>SocialStatus</p>
+      <TrafficGraph/>
+      <SocialStatus/>
     </div>
   )
 }

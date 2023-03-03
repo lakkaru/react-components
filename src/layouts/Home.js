@@ -1,6 +1,6 @@
 import React from 'react'
-import LeftMenu from './homePage/leftMenu/LeftMenu'
-import PageContent from './homePage/PageContent/PageContent'
+import LeftMenu from './homePage/LeftMenu'
+import PageContent from './homePage/PageContent'
 
 export default function Home() {
   return (

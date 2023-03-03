@@ -66,7 +66,7 @@ export default function LeftMenu() {
   ];
 
   return (
-    <div>
+    <div style={{flex:1}}>
       <BrandLogo/>
       <DashBoard/>
       {components.map((val, key)=>{

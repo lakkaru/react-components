@@ -1,11 +1,10 @@
 import './App.css';
-import FbPage from './FbPage';
+import Home from './layouts/Home';
 
 function App() {
   return (
     <div className="App">
-      
-      <FbPage/>
+      <Home/>
     </div>
   );
 }

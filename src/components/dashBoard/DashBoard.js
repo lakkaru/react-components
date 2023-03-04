@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function DashBoard() {
   return (
-    <div style={{ display:'flex', backgroundColor:'#44546d', padding:'10px', alignItems:'center', height:'15px'}}>
+    <div style={{ display:'flex', backgroundColor:'#44546d', padding:'10px', alignItems:'center', height:'35px'}}>
       <img src='https://www.freeiconspng.com/uploads/dashboard-icon-30.png' alt='' height='20px'/>
             <p style={{marginLeft:'15px', marginRight:'10px'}}>Dashboard</p>
             <div style={{display:'flex', justifyContent:'end', width:'100%'}}>

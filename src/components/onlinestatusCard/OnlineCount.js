@@ -3,8 +3,8 @@ import React from "react";
 export default function OnlineCount() {
   return (
     <div>
-      <p>count</p>
-      <p>Mebers Online</p>
+      <p>9,823</p>
+      <p style={{fontSize:'12px'}}>Mebers Online</p>
     </div>
   );
 }

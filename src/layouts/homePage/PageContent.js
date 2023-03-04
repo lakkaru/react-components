@@ -7,9 +7,11 @@ import TrafficGraph from './PageContent/TrafficGraph'
 
 export default function PageContent() {
   return (
-    <div style={{flex:4}}>
+    <div style={{flex:4, backgroundColor:'#ebeef3', borderRadius:'0px 10px 10px 0px'}}>
       <PrimaryNav/>
+      <hr/>
       <SecNav/>
+      <hr/>
       <OnlineStatus/>
       <TrafficGraph/>
       <SocialStatus/>

@@ -8,7 +8,7 @@ export default function SocialCard({icon, statics}) {
       <SocialIcon icon={icon} />
       <div style={{ display: "flex" }}>
         {statics.map((val, key)=>{
-            return <SocialStat count={val.count} statics={val.stat} />
+            return <SocialStat key={key} count={val.count} statics={val.stat} />
         })} 
       </div>
     </div>

@@ -27,7 +27,7 @@ export default function SocialStatus() {
   ];
 
   return (
-    <div style={{ display: "flex", justifyContent: "space-between" }}>
+    <div style={{ display: "flex", justifyContent: "space-between", padding:'0px 15px' }}>
       {socialStatus.map((val,key)=>{
         return <SocialCard key={key} icon={val.icon} statics={val.statics}/>
       })}

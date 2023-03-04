@@ -4,7 +4,7 @@ import PageContent from './homePage/PageContent'
 
 export default function HomePage() {
   return (
-    <div style={{display:'flex', justifyContent:'space-between'}}>
+    <div style={{display:'flex', justifyContent:'space-between', padding:'10px'}}>
       <LeftMenu/>
       <PageContent/>
     </div>

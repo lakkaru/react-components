@@ -1,7 +1,7 @@
 {
   "name": "iu_component_breaking",
   "version": "0.1.0",
-  "homepage": "https://lakkaru.github.io/react-component-separation",
+  "homepage": "https://lakkaru.github.io/react-components", 
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
